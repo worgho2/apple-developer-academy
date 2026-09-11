@@ -1,0 +1,3 @@
+protocol ChoiceObserver {
+    func notity()
+}

@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A100774228DA3C70028DD34 /* DesktopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A100773228DA3C70028DD34 /* DesktopViewController.swift */; };
+		7A100776228DA8470028DD34 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A100775228DA8470028DD34 /* Model.swift */; };
+		7A100778228DA8770028DD34 /* WindowsError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A100777228DA8770028DD34 /* WindowsError.swift */; };
+		7A10077A228DAB800028DD34 /* BtnBackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A100779228DAB800028DD34 /* BtnBackgroundImage.swift */; };
+		7A10077C228DB0AF0028DD34 /* start.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7A10077B228DB0AF0028DD34 /* start.wav */; };
+		7A10077E228DF1400028DD34 /* ErrorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10077D228DF1400028DD34 /* ErrorTableViewController.swift */; };
+		7A100780228DF1EB0028DD34 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10077F228DF1EB0028DD34 /* ImageTableViewCell.swift */; };
+		7A100782228DF1F60028DD34 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A100781228DF1F60028DD34 /* TextTableViewCell.swift */; };
+		7A5B55B1228C99050083F1CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5B55B0228C99050083F1CB /* AppDelegate.swift */; };
+		7A5B55B6228C99050083F1CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5B55B4228C99050083F1CB /* Main.storyboard */; };
+		7A702EB3228CB1AF00264F28 /* CrashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A702EB2228CB1AF00264F28 /* CrashViewController.swift */; };
+		7AFA1BEC228C9F5E00D80927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA1BEB228C9F5E00D80927 /* Assets.xcassets */; };
+		7AFA1BF0228CA0EF00D80927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA1BEF228CA0EF00D80927 /* LaunchScreen.storyboard */; };
+		7AFA1BF2228CA18000D80927 /* StartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA1BF1228CA18000D80927 /* StartupViewController.swift */; };
+		7AFA1BF7228CA5B400D80927 /* shutdown.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA1BF4228CA5B300D80927 /* shutdown.wav */; };
+		7AFA1BF8228CA5B400D80927 /* startup.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA1BF5228CA5B400D80927 /* startup.wav */; };
+		7AFA1BF9228CA5B400D80927 /* critical.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA1BF6228CA5B400D80927 /* critical.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A5B55C2228C99060083F1CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A5B55A5228C99050083F1CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A5B55AC228C99050083F1CB;
+			remoteInfo = Windows98Crash;
+		};
+		7A5B55CD228C99060083F1CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A5B55A5228C99050083F1CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A5B55AC228C99050083F1CB;
+			remoteInfo = Windows98Crash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A100773228DA3C70028DD34 /* DesktopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopViewController.swift; sourceTree = "<group>"; };
+		7A100775228DA8470028DD34 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7A100777228DA8770028DD34 /* WindowsError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowsError.swift; sourceTree = "<group>"; };
+		7A100779228DAB800028DD34 /* BtnBackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtnBackgroundImage.swift; sourceTree = "<group>"; };
+		7A10077B228DB0AF0028DD34 /* start.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = start.wav; path = "../../../../../Downloads/windows_classic_sounds_for_xp_by_graywz_d315cb3/Windows Classic/Windows 98/start.wav"; sourceTree = "<group>"; };
+		7A10077D228DF1400028DD34 /* ErrorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorTableViewController.swift; sourceTree = "<group>"; };
+		7A10077F228DF1EB0028DD34 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		7A100781228DF1F60028DD34 /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
+		7A5B55AD228C99050083F1CB /* Windows98Crash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Windows98Crash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5B55B0228C99050083F1CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A5B55B5228C99050083F1CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A5B55BC228C99060083F1CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A5B55C1228C99060083F1CB /* Windows98CrashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Windows98CrashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5B55CC228C99060083F1CB /* Windows98CrashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Windows98CrashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A702EB2228CB1AF00264F28 /* CrashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashViewController.swift; sourceTree = "<group>"; };
+		7AFA1BEB228C9F5E00D80927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Windows98Crash/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		7AFA1BEF228CA0EF00D80927 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AFA1BF1228CA18000D80927 /* StartupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupViewController.swift; sourceTree = "<group>"; };
+		7AFA1BF4228CA5B300D80927 /* shutdown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = shutdown.wav; path = Windows98Crash/songs/shutdown.wav; sourceTree = SOURCE_ROOT; };
+		7AFA1BF5228CA5B400D80927 /* startup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = startup.wav; path = Windows98Crash/songs/startup.wav; sourceTree = SOURCE_ROOT; };
+		7AFA1BF6228CA5B400D80927 /* critical.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = critical.wav; path = Windows98Crash/songs/critical.wav; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A5B55AA228C99050083F1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5B55BE228C99060083F1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5B55C9228C99060083F1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A5B55A4228C99040083F1CB = {
+			isa = PBXGroup;
+			children = (
+				7A5B55AF228C99050083F1CB /* Windows98Crash */,
+				7A5B55AE228C99050083F1CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A5B55AE228C99050083F1CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A5B55AD228C99050083F1CB /* Windows98Crash.app */,
+				7A5B55C1228C99060083F1CB /* Windows98CrashTests.xctest */,
+				7A5B55CC228C99060083F1CB /* Windows98CrashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A5B55AF228C99050083F1CB /* Windows98Crash */ = {
+			isa = PBXGroup;
+			children = (
+				7A5B55B0228C99050083F1CB /* AppDelegate.swift */,
+				7A5B55BC228C99060083F1CB /* Info.plist */,
+				7AFA1BF3228CA4FB00D80927 /* songs */,
+				7A5B55E0228C99B50083F1CB /* model */,
+				7A5B55DE228C99440083F1CB /* view */,
+				7A5B55DF228C99870083F1CB /* controller */,
+			);
+			path = Windows98Crash;
+			sourceTree = "<group>";
+		};
+		7A5B55DE228C99440083F1CB /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7AFA1BEB228C9F5E00D80927 /* Assets.xcassets */,
+				7AFA1BEF228CA0EF00D80927 /* LaunchScreen.storyboard */,
+				7A5B55B4228C99050083F1CB /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		7A5B55DF228C99870083F1CB /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A10077D228DF1400028DD34 /* ErrorTableViewController.swift */,
+				7A10077F228DF1EB0028DD34 /* ImageTableViewCell.swift */,
+				7A100781228DF1F60028DD34 /* TextTableViewCell.swift */,
+				7AFA1BF1228CA18000D80927 /* StartupViewController.swift */,
+				7A702EB2228CB1AF00264F28 /* CrashViewController.swift */,
+				7A100773228DA3C70028DD34 /* DesktopViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		7A5B55E0228C99B50083F1CB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7A100775228DA8470028DD34 /* Model.swift */,
+				7A100777228DA8770028DD34 /* WindowsError.swift */,
+				7A100779228DAB800028DD34 /* BtnBackgroundImage.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		7AFA1BF3228CA4FB00D80927 /* songs */ = {
+			isa = PBXGroup;
+			children = (
+				7A10077B228DB0AF0028DD34 /* start.wav */,
+				7AFA1BF6228CA5B400D80927 /* critical.wav */,
+				7AFA1BF4228CA5B300D80927 /* shutdown.wav */,
+				7AFA1BF5228CA5B400D80927 /* startup.wav */,
+			);
+			path = songs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A5B55AC228C99050083F1CB /* Windows98Crash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A5B55D5228C99060083F1CB /* Build configuration list for PBXNativeTarget "Windows98Crash" */;
+			buildPhases = (
+				7A5B55A9228C99050083F1CB /* Sources */,
+				7A5B55AA228C99050083F1CB /* Frameworks */,
+				7A5B55AB228C99050083F1CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Windows98Crash;
+			productName = Windows98Crash;
+			productReference = 7A5B55AD228C99050083F1CB /* Windows98Crash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A5B55C0228C99060083F1CB /* Windows98CrashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A5B55D8228C99060083F1CB /* Build configuration list for PBXNativeTarget "Windows98CrashTests" */;
+			buildPhases = (
+				7A5B55BD228C99060083F1CB /* Sources */,
+				7A5B55BE228C99060083F1CB /* Frameworks */,
+				7A5B55BF228C99060083F1CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A5B55C3228C99060083F1CB /* PBXTargetDependency */,
+			);
+			name = Windows98CrashTests;
+			productName = Windows98CrashTests;
+			productReference = 7A5B55C1228C99060083F1CB /* Windows98CrashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A5B55CB228C99060083F1CB /* Windows98CrashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A5B55DB228C99060083F1CB /* Build configuration list for PBXNativeTarget "Windows98CrashUITests" */;
+			buildPhases = (
+				7A5B55C8228C99060083F1CB /* Sources */,
+				7A5B55C9228C99060083F1CB /* Frameworks */,
+				7A5B55CA228C99060083F1CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A5B55CE228C99060083F1CB /* PBXTargetDependency */,
+			);
+			name = Windows98CrashUITests;
+			productName = Windows98CrashUITests;
+			productReference = 7A5B55CC228C99060083F1CB /* Windows98CrashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A5B55A5228C99050083F1CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Otávio Baziewicz Filho";
+				TargetAttributes = {
+					7A5B55AC228C99050083F1CB = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7A5B55C0228C99060083F1CB = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7A5B55AC228C99050083F1CB;
+					};
+					7A5B55CB228C99060083F1CB = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7A5B55AC228C99050083F1CB;
+					};
+				};
+			};
+			buildConfigurationList = 7A5B55A8228C99050083F1CB /* Build configuration list for PBXProject "Windows98Crash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A5B55A4228C99040083F1CB;
+			productRefGroup = 7A5B55AE228C99050083F1CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A5B55AC228C99050083F1CB /* Windows98Crash */,
+				7A5B55C0228C99060083F1CB /* Windows98CrashTests */,
+				7A5B55CB228C99060083F1CB /* Windows98CrashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A5B55AB228C99050083F1CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFA1BF8228CA5B400D80927 /* startup.wav in Resources */,
+				7AFA1BF0228CA0EF00D80927 /* LaunchScreen.storyboard in Resources */,
+				7AFA1BF9228CA5B400D80927 /* critical.wav in Resources */,
+				7AFA1BEC228C9F5E00D80927 /* Assets.xcassets in Resources */,
+				7A10077C228DB0AF0028DD34 /* start.wav in Resources */,
+				7AFA1BF7228CA5B400D80927 /* shutdown.wav in Resources */,
+				7A5B55B6228C99050083F1CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5B55BF228C99060083F1CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5B55CA228C99060083F1CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A5B55A9228C99050083F1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A100776228DA8470028DD34 /* Model.swift in Sources */,
+				7AFA1BF2228CA18000D80927 /* StartupViewController.swift in Sources */,
+				7A10077E228DF1400028DD34 /* ErrorTableViewController.swift in Sources */,
+				7A100780228DF1EB0028DD34 /* ImageTableViewCell.swift in Sources */,
+				7A100782228DF1F60028DD34 /* TextTableViewCell.swift in Sources */,
+				7A702EB3228CB1AF00264F28 /* CrashViewController.swift in Sources */,
+				7A5B55B1228C99050083F1CB /* AppDelegate.swift in Sources */,
+				7A10077A228DAB800028DD34 /* BtnBackgroundImage.swift in Sources */,
+				7A100778228DA8770028DD34 /* WindowsError.swift in Sources */,
+				7A100774228DA3C70028DD34 /* DesktopViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5B55BD228C99060083F1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5B55C8228C99060083F1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A5B55C3228C99060083F1CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A5B55AC228C99050083F1CB /* Windows98Crash */;
+			targetProxy = 7A5B55C2228C99060083F1CB /* PBXContainerItemProxy */;
+		};
+		7A5B55CE228C99060083F1CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A5B55AC228C99050083F1CB /* Windows98Crash */;
+			targetProxy = 7A5B55CD228C99060083F1CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A5B55B4228C99050083F1CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A5B55B5228C99050083F1CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A5B55D3228C99060083F1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A5B55D4228C99060083F1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A5B55D6228C99060083F1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 373U5VR954;
+				INFOPLIST_FILE = Windows98Crash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.pucpr.Windows98Crash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A5B55D7228C99060083F1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 373U5VR954;
+				INFOPLIST_FILE = Windows98Crash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.pucpr.Windows98Crash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A5B55D9228C99060083F1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 373U5VR954;
+				INFOPLIST_FILE = Windows98CrashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.pucpr.Windows98CrashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Windows98Crash.app/Windows98Crash";
+			};
+			name = Debug;
+		};
+		7A5B55DA228C99060083F1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 373U5VR954;
+				INFOPLIST_FILE = Windows98CrashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.pucpr.Windows98CrashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Windows98Crash.app/Windows98Crash";
+			};
+			name = Release;
+		};
+		7A5B55DC228C99060083F1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 373U5VR954;
+				INFOPLIST_FILE = Windows98CrashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.pucpr.Windows98CrashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Windows98Crash;
+			};
+			name = Debug;
+		};
+		7A5B55DD228C99060083F1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 373U5VR954;
+				INFOPLIST_FILE = Windows98CrashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.pucpr.Windows98CrashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Windows98Crash;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A5B55A8228C99050083F1CB /* Build configuration list for PBXProject "Windows98Crash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A5B55D3228C99060083F1CB /* Debug */,
+				7A5B55D4228C99060083F1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A5B55D5228C99060083F1CB /* Build configuration list for PBXNativeTarget "Windows98Crash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A5B55D6228C99060083F1CB /* Debug */,
+				7A5B55D7228C99060083F1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A5B55D8228C99060083F1CB /* Build configuration list for PBXNativeTarget "Windows98CrashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A5B55D9228C99060083F1CB /* Debug */,
+				7A5B55DA228C99060083F1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A5B55DB228C99060083F1CB /* Build configuration list for PBXNativeTarget "Windows98CrashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A5B55DC228C99060083F1CB /* Debug */,
+				7A5B55DD228C99060083F1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A5B55A5228C99050083F1CB /* Project object */;
+}

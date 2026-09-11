@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MgW-sW-0CA">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="px_sans_nouveaux.ttf">
+            <string>px_sans_nouveaux</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Startup View Controller-->
+        <scene sceneID="evP-VA-NSo">
+            <objects>
+                <viewController id="MgW-sW-0CA" customClass="StartupViewController" customModule="otaviOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hcb-9Y-KMR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ex-eE-maD">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="px_sans_nouveaux" family="px sans nouveaux" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_energy" translatesAutoresizingMaskIntoConstraints="NO" id="sow-hI-iam">
+                                <rect key="frame" x="244" y="124" width="150" height="94"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="sow-hI-iam" secondAttribute="height" multiplier="223:140" id="hxi-pJ-Lpy"/>
+                                    <constraint firstAttribute="width" constant="150" id="t2r-Xc-4cq"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="startup_background" translatesAutoresizingMaskIntoConstraints="NO" id="2MT-WG-Yhw">
+                                <rect key="frame" x="0.0" y="-4.5" width="414" height="905"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7ex-eE-maD" firstAttribute="top" secondItem="k7p-2u-boE" secondAttribute="top" id="3Lj-Sc-zoi"/>
+                            <constraint firstItem="2MT-WG-Yhw" firstAttribute="centerX" secondItem="k7p-2u-boE" secondAttribute="centerX" id="5nS-nC-jOI"/>
+                            <constraint firstItem="7ex-eE-maD" firstAttribute="leading" secondItem="k7p-2u-boE" secondAttribute="leading" id="CfU-yC-Xlm"/>
+                            <constraint firstItem="2MT-WG-Yhw" firstAttribute="centerY" secondItem="k7p-2u-boE" secondAttribute="centerY" constant="-5" id="Fce-ip-toV"/>
+                            <constraint firstItem="7ex-eE-maD" firstAttribute="centerY" secondItem="k7p-2u-boE" secondAttribute="centerY" id="TRD-7V-Wec"/>
+                            <constraint firstItem="2MT-WG-Yhw" firstAttribute="width" secondItem="hcb-9Y-KMR" secondAttribute="width" id="Yu8-bM-EzW"/>
+                            <constraint firstItem="k7p-2u-boE" firstAttribute="trailing" secondItem="sow-hI-iam" secondAttribute="trailing" constant="20" id="eqY-62-Jn0"/>
+                            <constraint firstItem="k7p-2u-boE" firstAttribute="bottom" secondItem="7ex-eE-maD" secondAttribute="bottom" id="fsQ-lm-xaZ"/>
+                            <constraint firstItem="k7p-2u-boE" firstAttribute="trailing" secondItem="7ex-eE-maD" secondAttribute="trailing" id="gDr-ny-YNz"/>
+                            <constraint firstItem="sow-hI-iam" firstAttribute="top" secondItem="k7p-2u-boE" secondAttribute="top" constant="80" id="stx-M2-fOx"/>
+                            <constraint firstItem="2MT-WG-Yhw" firstAttribute="height" secondItem="hcb-9Y-KMR" secondAttribute="height" multiplier="1.01" id="uC4-hE-1IU"/>
+                            <constraint firstItem="7ex-eE-maD" firstAttribute="centerX" secondItem="k7p-2u-boE" secondAttribute="centerX" id="vem-7a-sfd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="k7p-2u-boE"/>
+                    </view>
+                    <connections>
+                        <outlet property="energyImageView" destination="sow-hI-iam" id="Udm-Cp-RA7"/>
+                        <outlet property="osBackgroundImageView" destination="2MT-WG-Yhw" id="pzh-vI-0Ua"/>
+                        <outlet property="startupTextView" destination="7ex-eE-maD" id="fqA-ES-DKS"/>
+                        <segue destination="uwz-kp-TqL" kind="presentation" identifier="segueDesktop" modalPresentationStyle="overFullScreen" modalTransitionStyle="crossDissolve" id="C5i-4E-ovb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dOT-Kk-01H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="139"/>
+        </scene>
+        <!--Desktop-->
+        <scene sceneID="cwv-kZ-6Zu">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Desktop" id="uwz-kp-TqL" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="sfs-Pu-FKX"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a1U-iS-cgu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="838" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="star_energy" width="223" height="141"/>
+        <image name="startup_background" width="414" height="896"/>
+    </resources>
+</document>

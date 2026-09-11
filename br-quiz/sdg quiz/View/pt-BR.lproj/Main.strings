@@ -1,0 +1,92 @@
+//START
+
+/* Class = "UILabel"; text = "Alguma informação sobre o propósito do aplicativo para introduzir o usuário"; ObjectID = "yEN-CV-xBK"; */
+"yEN-CV-xBK.text" = "Descubra o quanto você conhece sobre a realidade do Brasil. Para começar o Quiz, pressione 'Jogar'";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "Ada-9U-i6o"; */
+"Ada-9U-i6o.normalTitle" = "JOGAR";
+
+/* Class = "UILabel"; text = "Nome do App"; ObjectID = "wnO-Qk-wkg"; */
+"wnO-Qk-wkg.text" = "BRQuiz";
+
+
+//HUNCH
+
+/* Class = "UILabel"; text = "In a scale from 0 to 10, how well do you think know Brazil?"; ObjectID = "a1I-6U-FFW"; */
+"a1I-6U-FFW.text" = "Em uma escala de '0' a '10', quanto você acha que conhece sobre o Brasil?";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "dP4-Fn-LrS"; */
+"dP4-Fn-LrS.text" = "0";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "YiO-QM-Yzy"; */
+"YiO-QM-Yzy.text" = "1";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "Dwn-Gt-nEQ"; */
+"Dwn-Gt-nEQ.text" = "2";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "TeW-N7-IJV"; */
+"TeW-N7-IJV.text" = "3";
+
+/* Class = "UILabel"; text = "4"; ObjectID = "DPA-wE-qBO"; */
+"DPA-wE-qBO.text" = "4";
+
+/* Class = "UILabel"; text = "5"; ObjectID = "wdn-9z-HOK"; */
+"wdn-9z-HOK.text" = "5";
+
+/* Class = "UILabel"; text = "6"; ObjectID = "TrD-IF-B3P"; */
+"TrD-IF-B3P.text" = "6";
+
+/* Class = "UILabel"; text = "7"; ObjectID = "UjO-bG-Yn3"; */
+"UjO-bG-Yn3.text" = "7";
+
+/* Class = "UILabel"; text = "8"; ObjectID = "fN6-YC-ScR"; */
+"fN6-YC-ScR.text" = "8";
+
+/* Class = "UILabel"; text = "9"; ObjectID = "HVh-2i-j33"; */
+"HVh-2i-j33.text" = "9";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "IZj-Jl-xFJ"; */
+"IZj-Jl-xFJ.text" = "10";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "VW5-PJ-Y95"; */
+"VW5-PJ-Y95.normalTitle" = "PRÓXIMO";
+
+
+//NATIONALITY
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "ohT-AS-lux"; */
+"ohT-AS-lux.normalTitle" = "Voltar";
+
+/* Class = "UILabel"; text = "For statistical purposes, please mark whether you are brazilian or from the rest of the world"; ObjectID = "Zb6-w4-4qN"; */
+"Zb6-w4-4qN.text" = "Para fins de comparação, indique se você é brasileiro.";
+
+/* Class = "UIButton"; normalTitle = "BRAZIL"; ObjectID = "0o5-c9-3AF"; */
+"0o5-c9-3AF.normalTitle" = "BRASIL";
+
+/* Class = "UIButton"; normalTitle = "Somewhere Else"; ObjectID = "a5V-If-5Vw"; */
+"a5V-If-5Vw.normalTitle" = "Resto do Mundo";
+
+
+//QUESTION
+//
+
+
+//SCORE
+
+/* Class = "UILabel"; text = "SCORE BOARD"; ObjectID = "93h-Bk-PSz"; */
+"93h-Bk-PSz.text" = "PONTUAÇÃO";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "k6Z-28-peo"; */
+"k6Z-28-peo.normalTitle" = "PRÓXIMO";
+
+
+//SCORE GLOBAL
+
+/* Class = "UIButton"; normalTitle = "BACK"; ObjectID = "0oN-Oy-EKK"; */
+"0oN-Oy-EKK.normalTitle" = "VOLTAR";
+
+/* Class = "UILabel"; text = "OVERALL BOARD"; ObjectID = "pPS-HO-och"; */
+"pPS-HO-och.text" = "GLOBAL";
+
+/* Class = "UIButton"; normalTitle = "RESET"; ObjectID = "QYX-mo-W6k"; */
+"QYX-mo-W6k.normalTitle" = "INÍCIO";

@@ -1,0 +1,70 @@
+"My Hunch" = "Meu Palpite";
+"Hunch" = "Palpite";
+"My Score" = "Minha Pontuação";
+"Score" = "Pontuação";
+"Correct" = "Correto";
+"Incorrect" = "Incorreto";
+"You" = "Você";
+"Brazil" = "Brasil";
+"World" = "Mundo";
+"Graph Title" = "Você x Brasil x Mundo";
+"Error" = "As informações do gráfico global não estão disponíveis";
+
+"q1" = "Qual dos valores de aproxima mais da população estimada do Brasil?";
+"q1a1" = "150 mi";
+"q1a2" = "210 mi";
+"q1c" = "População";
+
+
+"q2" = "Quantos estados tem o Brasil?";
+"q2a1" = "26";
+"q2a2" = "28";
+"q2c" = "Território";
+
+
+"q3" = "Qual dos valores se aproxima mais da extensão territorial do Brasil?";
+"q3a1" = "130.5 mi km²";
+"q3a2" = "8.5 mi km²";
+"q3c" = "Território";
+
+
+"q4" = "Você acha que o percentual de assassinatos que é cometido usando armas de fogo se aproxima mais de:";
+"q4a1" = "85 %";
+"q4a2" = "68 %";
+"q4c" = "Mortalidade";
+
+
+"q5" = "Você acha que o percentual de lotação das cadeias brasileiras se aproxima mais de:";
+"q5a1" = "200 %";
+"q5a2" = "160 %";
+"q5c" = "Encarceramento";
+
+
+"q6" = "Você acha que o percentual da energia produzida no Brasil que vem de fontes de energia renováveis se aproxima mais de:";
+"q6a1" = "20 %";
+"q6a2" = "45 %";
+"q6c" = "Energia";
+
+
+"q7" = "Em qual posição você acha que o Brasil está em relação à economia mundial?";
+"q7a1" = "25";
+"q7a2" = "9";
+"q7c" = "Economia";
+
+
+"q8" = "Você acha que o percentual de imigrantes em relação à população brasileira se aproxima mais de:";
+"q8a1" = "15 %";
+"q8a2" = "1 %";
+"q8c" = "Imigrantes";
+
+
+"q9" = "Em que posição você acredita que o Brasil se encontra no ranking da ignorância da população em relação ao próprio país?";
+"q9a1" = "87";
+"q9a2" = "5";
+"q9c" = "Ignorância";
+
+
+"q10" = "Qual dos valores mais se aproxima do atual PIB (Produto Interno Bruto) do Brasil?";
+"q10a1" = "2.056 bi (USD)";
+"q10a2" = "2.056 tri (USD)";
+"q10c" = "Economia";

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jJq-WL-wos">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Swipe View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SwipeViewController" customModule="JealousPartner" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PERGUNTA" translatesAutoresizingMaskIntoConstraints="NO" id="5Nw-fm-dbw">
+                                <rect key="frame" x="16" y="64" width="16" height="16"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RESPOSTA" translatesAutoresizingMaskIntoConstraints="NO" id="GMx-Al-ZSA">
+                                <rect key="frame" x="382" y="100" width="16" height="16"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="pergunta[1]" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zrt-cV-JE3">
+                                <rect key="frame" x="91" y="104" width="291" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="291" id="7aG-pd-93i"/>
+                                    <constraint firstAttribute="height" constant="106" id="zGc-y4-suP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="resposta[1]" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YEq-2m-3PJ">
+                                <rect key="frame" x="32" y="140" width="291" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="106" id="sw0-On-Bir"/>
+                                    <constraint firstAttribute="width" constant="291" id="tO8-QD-ySh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Scp-it-Oal">
+                                <rect key="frame" x="57" y="504" width="300" height="314"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SWIPE" translatesAutoresizingMaskIntoConstraints="NO" id="lZF-ND-dcp">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="314"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Escolha" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCC-2e-387">
+                                        <rect key="frame" x="30" y="31" width="240" height="193"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="33"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="sOD-I9-V4g" appends="YES" id="Kf6-lN-Rrc"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="GMx-Al-ZSA" firstAttribute="top" secondItem="5Nw-fm-dbw" secondAttribute="bottom" constant="20" id="Ei6-Bl-UFj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YEq-2m-3PJ" secondAttribute="trailing" constant="91" id="Fy6-3U-kY1"/>
+                            <constraint firstItem="zrt-cV-JE3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="91" id="IGX-w4-ETT"/>
+                            <constraint firstItem="zrt-cV-JE3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="OKK-8o-30b"/>
+                            <constraint firstItem="5Nw-fm-dbw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="YcM-3t-U82"/>
+                            <constraint firstItem="YEq-2m-3PJ" firstAttribute="top" secondItem="5Nw-fm-dbw" secondAttribute="bottom" constant="60" id="amo-g8-AOk"/>
+                            <constraint firstItem="5Nw-fm-dbw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="bOU-ax-62h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GMx-Al-ZSA" secondAttribute="trailing" constant="16" id="rMB-UG-8Zu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="exP-VD-3Ej"/>
+                    <connections>
+                        <outlet property="cardView" destination="Scp-it-Oal" id="FTE-i1-O1x"/>
+                        <outlet property="txtEscolha" destination="sCC-2e-387" id="33d-BW-ZzD"/>
+                        <outlet property="txtNavigation" destination="exP-VD-3Ej" id="TLw-y6-Ybl"/>
+                        <outlet property="txtPergunta" destination="zrt-cV-JE3" id="RlD-Dt-4jS"/>
+                        <outlet property="txtResposta" destination="YEq-2m-3PJ" id="qTU-Yd-0dR"/>
+                        <segue destination="x1U-La-lmw" kind="show" identifier="segueEsquerda" id="XKt-aT-RG4"/>
+                        <segue destination="ooQ-E1-Hjn" kind="show" identifier="segueDireita" id="Njg-9j-bEX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="sOD-I9-V4g">
+                    <connections>
+                        <action selector="swipePan:" destination="BYZ-38-t0r" id="Ev2-iY-hlG"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1444.9275362318842" y="237.72321428571428"/>
+        </scene>
+        <!--Foto View Controller-->
+        <scene sceneID="q16-8C-v6f">
+            <objects>
+                <viewController id="x1U-La-lmw" customClass="FotoViewController" customModule="JealousPartner" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1vB-nh-GG9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PERGUNTA" translatesAutoresizingMaskIntoConstraints="NO" id="6eA-Cn-aUL">
+                                <rect key="frame" x="16" y="64" width="382" height="156"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RESPOSTA" translatesAutoresizingMaskIntoConstraints="NO" id="Crh-y5-Hgw">
+                                <rect key="frame" x="16" y="240" width="382" height="156"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="pergunta[2]" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9j-Xf-v05">
+                                <rect key="frame" x="91" y="104" width="291" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="106" id="Dnl-KH-dgV"/>
+                                    <constraint firstAttribute="width" constant="291" id="TaG-Ay-2fk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="OK. Lá vamos nós novamente... kk" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agm-BH-D1z">
+                                <rect key="frame" x="32" y="280" width="291" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="106" id="6pc-2W-Ocm"/>
+                                    <constraint firstAttribute="width" constant="291" id="OB5-Am-rsf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sia-q6-0zy">
+                                <rect key="frame" x="57" y="498" width="300" height="314"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FOTO" translatesAutoresizingMaskIntoConstraints="NO" id="0VI-cB-TBP">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="314"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="sAV-Et-RfO" appends="YES" id="gmY-Vi-Lsb"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="V9j-Xf-v05" firstAttribute="leading" secondItem="edT-RZ-lYk" secondAttribute="leading" constant="91" id="3J1-od-C7D"/>
+                            <constraint firstItem="edT-RZ-lYk" firstAttribute="trailing" secondItem="Crh-y5-Hgw" secondAttribute="trailing" constant="16" id="58W-TF-FOQ"/>
+                            <constraint firstItem="agm-BH-D1z" firstAttribute="top" secondItem="6eA-Cn-aUL" secondAttribute="bottom" constant="60" id="9U6-Ts-1qa"/>
+                            <constraint firstItem="V9j-Xf-v05" firstAttribute="top" secondItem="edT-RZ-lYk" secondAttribute="top" constant="60" id="TPI-2F-S8h"/>
+                            <constraint firstItem="Crh-y5-Hgw" firstAttribute="top" secondItem="6eA-Cn-aUL" secondAttribute="bottom" constant="20" id="djb-Eq-0cv"/>
+                            <constraint firstItem="6eA-Cn-aUL" firstAttribute="leading" secondItem="edT-RZ-lYk" secondAttribute="leading" constant="16" id="lqy-Uf-cHO"/>
+                            <constraint firstItem="6eA-Cn-aUL" firstAttribute="top" secondItem="edT-RZ-lYk" secondAttribute="top" constant="20" id="ney-gU-Vdv"/>
+                            <constraint firstItem="edT-RZ-lYk" firstAttribute="trailing" secondItem="agm-BH-D1z" secondAttribute="trailing" constant="91" id="yqT-Km-wAH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="edT-RZ-lYk"/>
+                    </view>
+                    <connections>
+                        <outlet property="cardView" destination="Sia-q6-0zy" id="oef-qf-i8z"/>
+                        <outlet property="txtPergunta" destination="V9j-Xf-v05" id="kZ8-w2-isz"/>
+                        <segue destination="hWx-m1-NRo" kind="show" identifier="segueFoto" id="Q2O-ME-ke4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qup-Py-buo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="sAV-Et-RfO">
+                    <connections>
+                        <action selector="fotoPan:" destination="x1U-La-lmw" id="JIU-jX-9Ld"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2302.898550724638" y="237.72321428571428"/>
+        </scene>
+        <!--Image Classification View Controller-->
+        <scene sceneID="w44-eW-d2V">
+            <objects>
+                <viewController id="hWx-m1-NRo" customClass="ImageClassificationViewController" customModule="JealousPartner" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LFK-3Y-PzS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nNQ-6a-JAs">
+                                <rect key="frame" x="57" y="44" width="300" height="300"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Ydo-Z8-Jzs"/>
+                                    <constraint firstAttribute="height" constant="300" id="aXB-sc-xT3"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GAP-DM-tiB">
+                                <rect key="frame" x="57" y="495" width="300" height="314"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SO" translatesAutoresizingMaskIntoConstraints="NO" id="oC4-td-PFR">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="314"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="mw9-56-TbK" appends="YES" id="ACA-Sk-bLg"/>
+                                </connections>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tire a foto do objeto que a pessoa ciumenta pediu..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ztt-C2-JCb">
+                                <rect key="frame" x="20" y="344" width="374" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="135" id="Uv3-Hk-pEZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ztt-C2-JCb" firstAttribute="leading" secondItem="eTM-Z4-ZRO" secondAttribute="leading" constant="20" id="CKb-Yg-Vg9"/>
+                            <constraint firstItem="eTM-Z4-ZRO" firstAttribute="trailing" secondItem="Ztt-C2-JCb" secondAttribute="trailing" constant="20" id="Fb4-Hv-bHC"/>
+                            <constraint firstItem="nNQ-6a-JAs" firstAttribute="top" secondItem="eTM-Z4-ZRO" secondAttribute="top" id="Jcc-Rh-zz9"/>
+                            <constraint firstItem="nNQ-6a-JAs" firstAttribute="centerX" secondItem="LFK-3Y-PzS" secondAttribute="centerX" id="hBS-Ky-JMg"/>
+                            <constraint firstItem="Ztt-C2-JCb" firstAttribute="centerX" secondItem="LFK-3Y-PzS" secondAttribute="centerX" id="hVm-ec-ctK"/>
+                            <constraint firstItem="Ztt-C2-JCb" firstAttribute="top" secondItem="nNQ-6a-JAs" secondAttribute="bottom" id="oM2-p6-hkj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eTM-Z4-ZRO"/>
+                    </view>
+                    <connections>
+                        <outlet property="cardView" destination="GAP-DM-tiB" id="4cX-kj-d2Q"/>
+                        <outlet property="classificationLabel" destination="Ztt-C2-JCb" id="TzI-rM-m4f"/>
+                        <outlet property="imageView" destination="nNQ-6a-JAs" id="9Md-2v-Jhi"/>
+                        <segue destination="bpf-9R-cF7" kind="show" identifier="segueCamera" id="Jit-JX-pzJ"/>
+                        <segue destination="ooQ-E1-Hjn" kind="show" identifier="segueCameraFail" id="nSq-MK-Foi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qMf-bc-3ph" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="mw9-56-TbK">
+                    <connections>
+                        <action selector="cameraPan:" destination="hWx-m1-NRo" id="c82-A3-Zvj"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="3095.6521739130435" y="237.72321428571428"/>
+        </scene>
+        <!--Final View Controller-->
+        <scene sceneID="Z51-Xt-dzm">
+            <objects>
+                <viewController id="eVF-LY-Hrq" customClass="FinalViewController" customModule="JealousPartner" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qbL-Ij-7pB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" editable="NO" text="Mensagem Final" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1u-9E-SFD">
+                                <rect key="frame" x="20" y="243" width="374" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="KbY-8T-aIp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oss-5K-Pb2">
+                                <rect key="frame" x="57" y="488" width="300" height="314"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RESTART" translatesAutoresizingMaskIntoConstraints="NO" id="Lai-qY-uFX">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="314"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ysI-tr-xg4" appends="YES" id="W8w-QW-TVY"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="C1u-9E-SFD" firstAttribute="leading" secondItem="WII-aq-fuZ" secondAttribute="leading" constant="20" id="FrU-iN-HNf"/>
+                            <constraint firstItem="C1u-9E-SFD" firstAttribute="centerX" secondItem="qbL-Ij-7pB" secondAttribute="centerX" id="Imt-nz-IcH"/>
+                            <constraint firstItem="C1u-9E-SFD" firstAttribute="centerY" secondItem="qbL-Ij-7pB" secondAttribute="centerY" constant="-150" id="leZ-EJ-Xjj"/>
+                            <constraint firstItem="WII-aq-fuZ" firstAttribute="trailing" secondItem="C1u-9E-SFD" secondAttribute="trailing" constant="20" id="uvH-dg-3Az"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WII-aq-fuZ"/>
+                    </view>
+                    <connections>
+                        <outlet property="cardView" destination="Oss-5K-Pb2" id="ly6-MO-1hv"/>
+                        <outlet property="txtFinal" destination="C1u-9E-SFD" id="IWD-Kx-UgE"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="segueRestart" id="IPy-Dm-mQ7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w7a-bT-klj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="ysI-tr-xg4">
+                    <connections>
+                        <action selector="finalPan:" destination="eVF-LY-Hrq" id="8Qa-Ei-Tgh"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2148" y="-547"/>
+        </scene>
+        <!--Next View Controller-->
+        <scene sceneID="dTo-cP-MPJ">
+            <objects>
+                <viewController id="bpf-9R-cF7" customClass="NextViewController" customModule="JealousPartner" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZGR-Df-QH9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PERGUNTA" translatesAutoresizingMaskIntoConstraints="NO" id="dzE-bk-3Xp">
+                                <rect key="frame" x="16" y="64" width="382" height="156"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="sucesso" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MqW-ro-e8k">
+                                <rect key="frame" x="91" y="104" width="291" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="291" id="IJZ-bx-T3w"/>
+                                    <constraint firstAttribute="height" constant="106" id="S9h-bi-zkX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tVV-tB-MjC">
+                                <rect key="frame" x="57" y="508" width="300" height="314"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NEXT" translatesAutoresizingMaskIntoConstraints="NO" id="qmZ-O7-gYu">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="314"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Xp1-ZI-9d3" appends="YES" id="11G-cl-Rre"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="MqW-ro-e8k" firstAttribute="top" secondItem="Yle-sD-gyX" secondAttribute="top" constant="60" id="BPy-nY-nPU"/>
+                            <constraint firstItem="dzE-bk-3Xp" firstAttribute="leading" secondItem="Yle-sD-gyX" secondAttribute="leading" constant="16" id="nSG-3p-ypL"/>
+                            <constraint firstItem="dzE-bk-3Xp" firstAttribute="top" secondItem="Yle-sD-gyX" secondAttribute="top" constant="20" id="pEv-os-Wbv"/>
+                            <constraint firstItem="MqW-ro-e8k" firstAttribute="leading" secondItem="Yle-sD-gyX" secondAttribute="leading" constant="91" id="yne-ee-bP9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Yle-sD-gyX"/>
+                    </view>
+                    <connections>
+                        <outlet property="cardView" destination="tVV-tB-MjC" id="0m4-iD-jxZ"/>
+                        <outlet property="txtNext" destination="MqW-ro-e8k" id="zg2-ms-JdH"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="segueNext" id="rcb-Qd-v8j"/>
+                        <segue destination="eVF-LY-Hrq" kind="show" identifier="segueWin" id="eVO-4q-Ah8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YbD-s5-OGE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Xp1-ZI-9d3">
+                    <connections>
+                        <action selector="nextPan:" destination="bpf-9R-cF7" id="L4z-5f-Zlt"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="3206" y="-547"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="DmP-PB-hWk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jJq-WL-wos" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PTv-Hd-XCE">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="zdm-nX-5hj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qld-rV-jb8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="479.71014492753625" y="237.72321428571428"/>
+        </scene>
+        <!--Fail View Controller-->
+        <scene sceneID="nUX-dW-arb">
+            <objects>
+                <viewController id="ooQ-E1-Hjn" customClass="FailViewController" customModule="JealousPartner" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iLw-Gr-zad">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PERGUNTA" translatesAutoresizingMaskIntoConstraints="NO" id="7yi-oX-uGY">
+                                <rect key="frame" x="16" y="64" width="382" height="156"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="falha" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wEP-Ce-Xt2">
+                                <rect key="frame" x="91" y="104" width="291" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="291" id="gr0-Df-eh1"/>
+                                    <constraint firstAttribute="height" constant="106" id="isG-gm-l3a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H3D-jW-cbz">
+                                <rect key="frame" x="57" y="498" width="300" height="314"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FAIL" translatesAutoresizingMaskIntoConstraints="NO" id="77i-dg-eXn">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="314"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="gaP-QF-wGe" appends="YES" id="ZCz-6k-SPh"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7yi-oX-uGY" firstAttribute="leading" secondItem="hK5-OP-tDO" secondAttribute="leading" constant="16" id="5pL-7a-FGm"/>
+                            <constraint firstItem="7yi-oX-uGY" firstAttribute="top" secondItem="hK5-OP-tDO" secondAttribute="top" constant="20" id="AO8-uq-Ysr"/>
+                            <constraint firstItem="wEP-Ce-Xt2" firstAttribute="top" secondItem="hK5-OP-tDO" secondAttribute="top" constant="60" id="bPa-in-69q"/>
+                            <constraint firstItem="wEP-Ce-Xt2" firstAttribute="leading" secondItem="hK5-OP-tDO" secondAttribute="leading" constant="91" id="ry0-re-2Uv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hK5-OP-tDO"/>
+                    </view>
+                    <connections>
+                        <outlet property="cardView" destination="H3D-jW-cbz" id="EK2-Xe-b04"/>
+                        <outlet property="txtFail" destination="wEP-Ce-Xt2" id="3yz-oJ-FdF"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="segueRecomecar" id="xy2-9b-E3T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L0Z-La-6x2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="gaP-QF-wGe">
+                    <connections>
+                        <action selector="failPan:" destination="ooQ-E1-Hjn" id="vfF-j1-Ucp"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1413" y="1122"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="FAIL" width="300" height="314"/>
+        <image name="FOTO" width="300" height="314"/>
+        <image name="NEXT" width="300" height="314"/>
+        <image name="PERGUNTA" width="382" height="156"/>
+        <image name="RESPOSTA" width="382" height="156"/>
+        <image name="RESTART" width="300" height="314"/>
+        <image name="SO" width="300" height="314"/>
+        <image name="SWIPE" width="300" height="314"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="nSq-MK-Foi"/>
+        <segue reference="rcb-Qd-v8j"/>
+    </inferredMetricsTieBreakers>
+</document>

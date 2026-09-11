@@ -1,0 +1,4 @@
+module agentcore {
+    umbrella "/Users/otavio/Documents/kituraServer/.build/checkouts/omr-agentcore/src/agentcore/include"
+    export *
+}

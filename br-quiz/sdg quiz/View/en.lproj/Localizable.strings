@@ -1,0 +1,71 @@
+"My Hunch" = "My Hunch";
+"Hunch" = "Hunch";
+"My Score" = "My Score";
+"Score" = "Score";
+"Correct" = "Correct";
+"Incorrect" = "Incorrect";
+"You" = "You";
+"Brazil" = "Brazil";
+"World" = "World";
+"Graph Title" = "You x Brazil x World";
+"Error" = "No Data Available to the Global chart.";
+
+
+"q1" = "Which of these values is closest to Brazil's population?";
+"q1a1" = "150 M";
+"q1a2" = "210 M";
+"q1c" = "Population";
+
+
+"q2" = "How many states does Brazil have?";
+"q2a1" = "26";
+"q2a2" = "28";
+"q2c" = "Territory";
+
+
+"q3" = "Which of these values is closest to Brazil's size?";
+"q3a1" = "130,5 M km²";
+"q3a2" = "8,5 M km²";
+"q3c" = "Territory";
+
+
+"q4" = "You think that the percentage of murders by firearms is closer to...";
+"q4a1" = "85 %";
+"q4a2" = "68 %";
+"q4c" = "Mortality";
+
+
+"q5" = "You think that the incarceration overcrowd rate is closer to...";
+"q5a1" = "160 %";
+"q5a2" = "200 %";
+"q5c" = "Incarceration";
+
+
+"q6" = "You think that the percentage of energy that is produced by clean sources in Brazil is closer to...";
+"q6a1" = "45 %";
+"q6a2" = "20 %";
+"q6c" = "Energy";
+
+
+"q7" = "Which position do you believe that Brazil ranks as in the top economies in the world?";
+"q7a1" = "9 °";
+"q7a2" = "25 °";
+"q7c" = "Economy";
+
+
+"q8" = "You think that the percentage of immigrants in relation to Brazil's total population is closer to...";
+"q8a1" = "15 %";
+"q8a2" = "1 %";
+"q8c" = "Immigrants";
+
+
+"q9" = "Which position do you believe that Brazil ranks as in the world's most ignorant countries?";
+"q9a1" = "87 °";
+"q9a2" = "5 °";
+"q9c" = "Ignorance";
+
+
+"q10" = "Which of these values is closest to Brazil's GDP?";
+"q10a1" = "2,056 B (USD)";
+"q10a2" = "2,056 T (USD)";
+"q10c" = "Economy";

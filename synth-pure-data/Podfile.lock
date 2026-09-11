@@ -1,0 +1,16 @@
+PODS:
+  - libpd-ios (0.11.0)
+
+DEPENDENCIES:
+  - libpd-ios
+
+SPEC REPOS:
+  trunk:
+    - libpd-ios
+
+SPEC CHECKSUMS:
+  libpd-ios: cb16ca46e779df2a3479d281e5e4726735e451ca
+
+PODFILE CHECKSUM: 76df686dbdc14fa498259e88f0fb0ef8bd56e28d
+
+COCOAPODS: 1.9.3

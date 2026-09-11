@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WFy-EK-LJx">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="px_sans_nouveaux.ttf">
+            <string>px_sans_nouveaux</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Internet Explorer View Controller-->
+        <scene sceneID="CwW-jM-M6J">
+            <objects>
+                <viewController id="WFy-EK-LJx" customClass="InternetExplorerViewController" customModule="otaviOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KeY-dN-hcl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sKw-pd-BYx">
+                                <rect key="frame" x="28" y="177" width="358" height="552"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="white_window" translatesAutoresizingMaskIntoConstraints="NO" id="ShD-MX-JOR">
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="552"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Internet Explorer - loading..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WNy-ck-eMN">
+                                        <rect key="frame" x="25" y="4" width="303" height="19"/>
+                                        <fontDescription key="fontDescription" name="px_sans_nouveaux" family="px sans nouveaux" pointSize="10"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qsS-Lf-cxZ">
+                                        <rect key="frame" x="9" y="76" width="340" height="469"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <wkWebViewConfiguration key="configuration">
+                                            <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                            <wkPreferences key="preferences"/>
+                                        </wkWebViewConfiguration>
+                                    </wkWebView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="internet_explorer_icon" translatesAutoresizingMaskIntoConstraints="NO" id="2eE-lq-z8H">
+                                        <rect key="frame" x="5" y="5" width="15" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="15" id="GiV-0G-s81"/>
+                                            <constraint firstAttribute="width" secondItem="2eE-lq-z8H" secondAttribute="height" multiplier="1:1" id="usI-xX-Bbr"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihu-Ki-M8f">
+                                        <rect key="frame" x="338" y="5" width="15" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="15" id="k1E-TI-NhR"/>
+                                            <constraint firstAttribute="width" secondItem="ihu-Ki-M8f" secondAttribute="height" multiplier="1:1" id="nST-jT-4dN"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="close_normal"/>
+                                        <connections>
+                                            <action selector="onClose:" destination="WFy-EK-LJx" eventType="touchUpInside" id="DXZ-YJ-6nj"/>
+                                        </connections>
+                                    </button>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="FLK-Ys-RKF">
+                                        <rect key="frame" x="169" y="266" width="20" height="20"/>
+                                    </activityIndicatorView>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Md1-Ib-8X4">
+                                        <rect key="frame" x="236" y="45" width="113" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="H9Y-w8-gcY"/>
+                                            <constraint firstAttribute="width" constant="113" id="qV5-7F-bR3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="px_sans_nouveaux" family="px sans nouveaux" pointSize="11"/>
+                                        <state key="normal" title="Apple Store" backgroundImage="internet_explorer_favorite_normal">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onFavoriteButtons:" destination="WFy-EK-LJx" eventType="touchUpInside" id="diX-1c-NPO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5g-69-9o9">
+                                        <rect key="frame" x="8" y="45" width="113" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="113" id="S2f-vG-V8J"/>
+                                            <constraint firstAttribute="height" constant="30" id="oWi-os-o38"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="px_sans_nouveaux" family="px sans nouveaux" pointSize="11"/>
+                                        <state key="normal" title="Linkedin" backgroundImage="internet_explorer_favorite_normal">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onFavoriteButtons:" destination="WFy-EK-LJx" eventType="touchUpInside" id="RP3-bm-824"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lr7-Hc-M66">
+                                        <rect key="frame" x="122" y="45" width="113" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="113" id="3Hq-hU-KwA"/>
+                                            <constraint firstAttribute="height" constant="30" id="Q0x-Jc-Xao"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="px_sans_nouveaux" family="px sans nouveaux" pointSize="11"/>
+                                        <state key="normal" title="Github" backgroundImage="internet_explorer_favorite_normal">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onFavoriteButtons:" destination="WFy-EK-LJx" eventType="touchUpInside" id="z5O-ra-Au3"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="2eE-lq-z8H" firstAttribute="top" secondItem="sKw-pd-BYx" secondAttribute="top" constant="5" id="0zF-90-Ttc"/>
+                                    <constraint firstItem="WNy-ck-eMN" firstAttribute="leading" secondItem="2eE-lq-z8H" secondAttribute="trailing" constant="5" id="2JS-KL-FMz"/>
+                                    <constraint firstItem="2eE-lq-z8H" firstAttribute="leading" secondItem="sKw-pd-BYx" secondAttribute="leading" constant="5" id="2hU-eP-KRL"/>
+                                    <constraint firstItem="qsS-Lf-cxZ" firstAttribute="width" secondItem="sKw-pd-BYx" secondAttribute="width" multiplier="0.951" id="8jH-Ps-i0x"/>
+                                    <constraint firstItem="Md1-Ib-8X4" firstAttribute="top" secondItem="sKw-pd-BYx" secondAttribute="top" constant="45" id="C7n-lu-MDI"/>
+                                    <constraint firstItem="l5g-69-9o9" firstAttribute="leading" secondItem="sKw-pd-BYx" secondAttribute="leading" constant="8" id="F7s-aJ-lrZ"/>
+                                    <constraint firstItem="FLK-Ys-RKF" firstAttribute="centerY" secondItem="sKw-pd-BYx" secondAttribute="centerY" id="FRe-jb-Ft0"/>
+                                    <constraint firstAttribute="height" constant="552" id="JhM-s7-zMC"/>
+                                    <constraint firstItem="lr7-Hc-M66" firstAttribute="leading" secondItem="l5g-69-9o9" secondAttribute="trailing" constant="1" id="K8Q-7a-PXH"/>
+                                    <constraint firstItem="ihu-Ki-M8f" firstAttribute="leading" secondItem="WNy-ck-eMN" secondAttribute="trailing" constant="10" id="Tcl-QI-5l8"/>
+                                    <constraint firstItem="qsS-Lf-cxZ" firstAttribute="top" secondItem="sKw-pd-BYx" secondAttribute="top" constant="76" id="UMK-Ol-Ft0"/>
+                                    <constraint firstAttribute="trailing" secondItem="ihu-Ki-M8f" secondAttribute="trailing" constant="5" id="WQf-YW-yH2"/>
+                                    <constraint firstItem="FLK-Ys-RKF" firstAttribute="centerX" secondItem="sKw-pd-BYx" secondAttribute="centerX" id="Wt4-W5-Bi3"/>
+                                    <constraint firstItem="lr7-Hc-M66" firstAttribute="top" secondItem="sKw-pd-BYx" secondAttribute="top" constant="45" id="a0N-o7-Bo0"/>
+                                    <constraint firstItem="qsS-Lf-cxZ" firstAttribute="centerX" secondItem="sKw-pd-BYx" secondAttribute="centerX" id="ck0-I5-8cY"/>
+                                    <constraint firstItem="l5g-69-9o9" firstAttribute="top" secondItem="sKw-pd-BYx" secondAttribute="top" constant="45" id="dEp-Vk-4cT"/>
+                                    <constraint firstAttribute="width" constant="358" id="hZn-n2-EoA"/>
+                                    <constraint firstItem="ihu-Ki-M8f" firstAttribute="top" secondItem="sKw-pd-BYx" secondAttribute="top" constant="5" id="hrP-VD-hqn"/>
+                                    <constraint firstAttribute="trailing" secondItem="Md1-Ib-8X4" secondAttribute="trailing" constant="9" id="jZs-nM-oI9"/>
+                                    <constraint firstItem="ShD-MX-JOR" firstAttribute="centerY" secondItem="sKw-pd-BYx" secondAttribute="centerY" id="mlt-eB-glX"/>
+                                    <constraint firstAttribute="bottom" secondItem="qsS-Lf-cxZ" secondAttribute="bottom" constant="7" id="piK-p4-rq0"/>
+                                    <constraint firstItem="ShD-MX-JOR" firstAttribute="width" secondItem="sKw-pd-BYx" secondAttribute="width" id="rSi-qT-f9K"/>
+                                    <constraint firstItem="WNy-ck-eMN" firstAttribute="top" secondItem="sKw-pd-BYx" secondAttribute="top" constant="4" id="u1s-dq-YjB"/>
+                                    <constraint firstItem="ShD-MX-JOR" firstAttribute="centerX" secondItem="sKw-pd-BYx" secondAttribute="centerX" id="ugN-SV-392"/>
+                                    <constraint firstItem="ShD-MX-JOR" firstAttribute="height" secondItem="sKw-pd-BYx" secondAttribute="height" id="uvE-TH-qKD"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="sKw-pd-BYx" firstAttribute="centerX" secondItem="IL1-lz-IU2" secondAttribute="centerX" id="c8H-Qy-6jo"/>
+                            <constraint firstItem="sKw-pd-BYx" firstAttribute="centerY" secondItem="IL1-lz-IU2" secondAttribute="centerY" id="wge-gy-ZwY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="IL1-lz-IU2"/>
+                    </view>
+                    <connections>
+                        <outlet property="appleStoreButton" destination="Md1-Ib-8X4" id="eKu-m6-3WV"/>
+                        <outlet property="closeButton" destination="ihu-Ki-M8f" id="m3V-Yi-w1I"/>
+                        <outlet property="githubButton" destination="lr7-Hc-M66" id="XWg-59-3iD"/>
+                        <outlet property="internetExplorerActivityIndicator" destination="FLK-Ys-RKF" id="mdC-cT-ui3"/>
+                        <outlet property="internetExplorerTitleLabel" destination="WNy-ck-eMN" id="oPS-uC-eqj"/>
+                        <outlet property="internetExplorerView" destination="sKw-pd-BYx" id="Y1s-ij-yOP"/>
+                        <outlet property="internetExplorerWKWebView" destination="qsS-Lf-cxZ" id="7l7-if-kOl"/>
+                        <outlet property="linkedinButton" destination="l5g-69-9o9" id="6Uf-4W-KxC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gkj-PO-Q5j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="166.66666666666669" y="-196.20535714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="close_normal" width="15" height="15"/>
+        <image name="internet_explorer_favorite_normal" width="113" height="30"/>
+        <image name="internet_explorer_icon" width="15" height="15"/>
+        <image name="white_window" width="358" height="552"/>
+    </resources>
+</document>

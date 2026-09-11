@@ -60,3 +60,13 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Firebase client configuration (add your own, never commit)
+GoogleService-Info.plist
+
+# CocoaPods dependencies (run pod install)
+Pods/

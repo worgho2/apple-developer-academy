@@ -1,0 +1,38 @@
+# Git LFS: binary assets, media, design files and prebuilt binaries
+# Images
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.car filter=lfs diff=lfs merge=lfs -text
+# Audio and video
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.m4a filter=lfs diff=lfs merge=lfs -text
+*.caf filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.MP4 filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+# Fonts
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.otf filter=lfs diff=lfs merge=lfs -text
+# Design and presentation files
+*.sketch filter=lfs diff=lfs merge=lfs -text
+*.key filter=lfs diff=lfs merge=lfs -text
+# SpriteKit scenes and compiled Swift modules
+*.sks filter=lfs diff=lfs merge=lfs -text
+*.swiftmodule filter=lfs diff=lfs merge=lfs -text
+*.swiftdoc filter=lfs diff=lfs merge=lfs -text
+*.swiftsourceinfo filter=lfs diff=lfs merge=lfs -text
+# Archives and static libraries
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.rar filter=lfs diff=lfs merge=lfs -text
+*.a filter=lfs diff=lfs merge=lfs -text
+# Prebuilt framework binaries (no extension)
+**/PlaygroundSupport.framework/**/PlaygroundSupport filter=lfs diff=lfs merge=lfs -text
+**/PlaygroundSupport.framework/PlaygroundSupport filter=lfs diff=lfs merge=lfs -text
+**/PlaygroundBluetooth.framework/**/PlaygroundBluetooth filter=lfs diff=lfs merge=lfs -text
+**/PlaygroundBluetooth.framework/PlaygroundBluetooth filter=lfs diff=lfs merge=lfs -text
+**/LiveViewHost.framework/**/LiveViewHost filter=lfs diff=lfs merge=lfs -text
+**/LiveViewHost.framework/LiveViewHost filter=lfs diff=lfs merge=lfs -text

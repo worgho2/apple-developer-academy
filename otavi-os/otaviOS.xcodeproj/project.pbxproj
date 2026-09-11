@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A117FAE23DBAED200099F80 /* ConsoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A117FAD23DBAED200099F80 /* ConsoleViewController.swift */; };
+		7A117FB023DBAF0800099F80 /* Console.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A117FAF23DBAF0800099F80 /* Console.storyboard */; };
+		7A117FB823DD222100099F80 /* IntroWithLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A117FB323DD222100099F80 /* IntroWithLoop.swift */; };
+		7A117FB923DD222100099F80 /* AudioLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A117FB423DD222100099F80 /* AudioLibrary.swift */; };
+		7A117FBA23DD222100099F80 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A117FB523DD222100099F80 /* Song.swift */; };
+		7A117FBB23DD222100099F80 /* SoundEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A117FB623DD222100099F80 /* SoundEffects.swift */; };
+		7A117FBC23DD222100099F80 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A117FB723DD222100099F80 /* AudioManager.swift */; };
+		7A117FC623DD24D400099F80 /* Windows XP Shutdown.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7A117FBE23DD24D400099F80 /* Windows XP Shutdown.wav */; };
+		7A117FC723DD24D400099F80 /* Windows XP Print complete.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7A117FBF23DD24D400099F80 /* Windows XP Print complete.wav */; };
+		7A117FC823DD24D400099F80 /* Windows XP Exclamation.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7A117FC023DD24D400099F80 /* Windows XP Exclamation.wav */; };
+		7A117FC923DD24D400099F80 /* Windows XP Error.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7A117FC123DD24D400099F80 /* Windows XP Error.wav */; };
+		7A117FCA23DD24D400099F80 /* Windows XP Start.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7A117FC223DD24D400099F80 /* Windows XP Start.wav */; };
+		7A117FCB23DD24D400099F80 /* Windows XP Startup.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7A117FC323DD24D400099F80 /* Windows XP Startup.wav */; };
+		7A117FCC23DD24D400099F80 /* Windows XP Hardware Remove.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7A117FC423DD24D400099F80 /* Windows XP Hardware Remove.wav */; };
+		7A117FCD23DD24D400099F80 /* Windows XP Hardware Insert.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7A117FC523DD24D400099F80 /* Windows XP Hardware Insert.wav */; };
+		7A117FCF23DD2D9700099F80 /* Windows XP Information Bar.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7A117FCE23DD2D9700099F80 /* Windows XP Information Bar.wav */; };
+		7A117FD123DD2E7D00099F80 /* Windows XP Menu Command.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7A117FD023DD2E7D00099F80 /* Windows XP Menu Command.wav */; };
+		7A117FD423DD306F00099F80 /* HapticFeedbackCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A117FD323DD306F00099F80 /* HapticFeedbackCenter.swift */; };
+		7AA024A423D9F79600284E01 /* Startup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA024A323D9F79600284E01 /* Startup.storyboard */; };
+		7AA024A623D9F82D00284E01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA024A523D9F82D00284E01 /* LaunchScreen.storyboard */; };
+		7AA3EFC123D8C30B002DB972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA3EFC023D8C30B002DB972 /* AppDelegate.swift */; };
+		7AA3EFC323D8C30B002DB972 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA3EFC223D8C30B002DB972 /* SceneDelegate.swift */; };
+		7AA3EFCA23D8C30C002DB972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA3EFC923D8C30C002DB972 /* Assets.xcassets */; };
+		7AA3EFD823D9F0CB002DB972 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA3EFD723D9F0CB002DB972 /* Model.swift */; };
+		7ADB03FA23DA0178009C161A /* StartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADB03F923DA0178009C161A /* StartupViewController.swift */; };
+		7ADB03FC23DA0215009C161A /* Desktop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ADB03FB23DA0215009C161A /* Desktop.storyboard */; };
+		7ADB03FE23DA021F009C161A /* DesktopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADB03FD23DA021F009C161A /* DesktopViewController.swift */; };
+		7ADB040023DA07CF009C161A /* px_sans_nouveaux.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ADB03FF23DA07CF009C161A /* px_sans_nouveaux.ttf */; };
+		7ADB040223DA3048009C161A /* MechanicalTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADB040123DA3048009C161A /* MechanicalTap.swift */; };
+		7ADB040423DA691A009C161A /* Alert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ADB040323DA691A009C161A /* Alert.storyboard */; };
+		7ADB040723DA6944009C161A /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADB040623DA6944009C161A /* AlertViewController.swift */; };
+		7ADB040923DA9DDD009C161A /* Notepad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ADB040823DA9DDD009C161A /* Notepad.storyboard */; };
+		7ADB040B23DA9DE9009C161A /* NotepadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADB040A23DA9DE9009C161A /* NotepadViewController.swift */; };
+		7ADB040D23DAAB56009C161A /* Crack.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ADB040C23DAAB56009C161A /* Crack.storyboard */; };
+		7ADB040F23DAAB64009C161A /* CrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADB040E23DAAB64009C161A /* CrackViewController.swift */; };
+		7AE23E1023E0AD9D00FDB038 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE23E0F23E0AD9D00FDB038 /* BaseViewController.swift */; };
+		7AE23E1223E1C45F00FDB038 /* Shutdown.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE23E1123E1C45F00FDB038 /* Shutdown.storyboard */; };
+		7AE23E1423E1C47400FDB038 /* ShutdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE23E1323E1C47400FDB038 /* ShutdownViewController.swift */; };
+		7AE23E1623E1FD0200FDB038 /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7AE23E1523E1FD0200FDB038 /* beep.wav */; };
+		7AE23E1823E21DEA00FDB038 /* InternetExplorer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE23E1723E21DEA00FDB038 /* InternetExplorer.storyboard */; };
+		7AE23E1A23E21DF900FDB038 /* InternetExplorerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE23E1923E21DF900FDB038 /* InternetExplorerViewController.swift */; };
+		7AE23E1C23E34F8C00FDB038 /* ConsoleCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE23E1B23E34F8C00FDB038 /* ConsoleCommand.swift */; };
+		7AE23E1E23E350F500FDB038 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE23E1D23E350F500FDB038 /* Error.swift */; };
+		7AE23E2023E352EF00FDB038 /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE23E1F23E352EF00FDB038 /* Help.swift */; };
+		7AE23E2223E3534600FDB038 /* Exit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE23E2123E3534600FDB038 /* Exit.swift */; };
+		7AE23E2423E3536E00FDB038 /* Clear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE23E2323E3536E00FDB038 /* Clear.swift */; };
+		7AE23E2623E353BE00FDB038 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE23E2523E353BE00FDB038 /* Color.swift */; };
+		7AE23E2823E3540F00FDB038 /* Otavio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE23E2723E3540F00FDB038 /* Otavio.swift */; };
+		7AE23E2A23E3544600FDB038 /* Metasploit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE23E2923E3544600FDB038 /* Metasploit.swift */; };
+		7AE23E2C23E354A700FDB038 /* Sudo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE23E2B23E354A700FDB038 /* Sudo.swift */; };
+		7AE23E2E23E3550800FDB038 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE23E2D23E3550800FDB038 /* Device.swift */; };
+		7AE23E3023E3555500FDB038 /* Ie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE23E2F23E3555500FDB038 /* Ie.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A117FAD23DBAED200099F80 /* ConsoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleViewController.swift; sourceTree = "<group>"; };
+		7A117FAF23DBAF0800099F80 /* Console.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Console.storyboard; sourceTree = "<group>"; };
+		7A117FB323DD222100099F80 /* IntroWithLoop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroWithLoop.swift; sourceTree = "<group>"; };
+		7A117FB423DD222100099F80 /* AudioLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioLibrary.swift; sourceTree = "<group>"; };
+		7A117FB523DD222100099F80 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		7A117FB623DD222100099F80 /* SoundEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundEffects.swift; sourceTree = "<group>"; };
+		7A117FB723DD222100099F80 /* AudioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		7A117FBE23DD24D400099F80 /* Windows XP Shutdown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Windows XP Shutdown.wav"; sourceTree = "<group>"; };
+		7A117FBF23DD24D400099F80 /* Windows XP Print complete.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Windows XP Print complete.wav"; sourceTree = "<group>"; };
+		7A117FC023DD24D400099F80 /* Windows XP Exclamation.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Windows XP Exclamation.wav"; sourceTree = "<group>"; };
+		7A117FC123DD24D400099F80 /* Windows XP Error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Windows XP Error.wav"; sourceTree = "<group>"; };
+		7A117FC223DD24D400099F80 /* Windows XP Start.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Windows XP Start.wav"; sourceTree = "<group>"; };
+		7A117FC323DD24D400099F80 /* Windows XP Startup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Windows XP Startup.wav"; sourceTree = "<group>"; };
+		7A117FC423DD24D400099F80 /* Windows XP Hardware Remove.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Windows XP Hardware Remove.wav"; sourceTree = "<group>"; };
+		7A117FC523DD24D400099F80 /* Windows XP Hardware Insert.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Windows XP Hardware Insert.wav"; sourceTree = "<group>"; };
+		7A117FCE23DD2D9700099F80 /* Windows XP Information Bar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Windows XP Information Bar.wav"; sourceTree = "<group>"; };
+		7A117FD023DD2E7D00099F80 /* Windows XP Menu Command.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Windows XP Menu Command.wav"; sourceTree = "<group>"; };
+		7A117FD323DD306F00099F80 /* HapticFeedbackCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackCenter.swift; sourceTree = "<group>"; };
+		7AA024A323D9F79600284E01 /* Startup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Startup.storyboard; sourceTree = "<group>"; };
+		7AA024A523D9F82D00284E01 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AA3EFBD23D8C30B002DB972 /* otaviOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = otaviOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA3EFC023D8C30B002DB972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AA3EFC223D8C30B002DB972 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7AA3EFC923D8C30C002DB972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AA3EFCE23D8C30C002DB972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA3EFD723D9F0CB002DB972 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7ADB03F923DA0178009C161A /* StartupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupViewController.swift; sourceTree = "<group>"; };
+		7ADB03FB23DA0215009C161A /* Desktop.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Desktop.storyboard; sourceTree = "<group>"; };
+		7ADB03FD23DA021F009C161A /* DesktopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopViewController.swift; sourceTree = "<group>"; };
+		7ADB03FF23DA07CF009C161A /* px_sans_nouveaux.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = px_sans_nouveaux.ttf; sourceTree = "<group>"; };
+		7ADB040123DA3048009C161A /* MechanicalTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MechanicalTap.swift; sourceTree = "<group>"; };
+		7ADB040323DA691A009C161A /* Alert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alert.storyboard; sourceTree = "<group>"; };
+		7ADB040623DA6944009C161A /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		7ADB040823DA9DDD009C161A /* Notepad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notepad.storyboard; sourceTree = "<group>"; };
+		7ADB040A23DA9DE9009C161A /* NotepadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotepadViewController.swift; sourceTree = "<group>"; };
+		7ADB040C23DAAB56009C161A /* Crack.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Crack.storyboard; sourceTree = "<group>"; };
+		7ADB040E23DAAB64009C161A /* CrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrackViewController.swift; sourceTree = "<group>"; };
+		7AE23E0F23E0AD9D00FDB038 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		7AE23E1123E1C45F00FDB038 /* Shutdown.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shutdown.storyboard; sourceTree = "<group>"; };
+		7AE23E1323E1C47400FDB038 /* ShutdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShutdownViewController.swift; sourceTree = "<group>"; };
+		7AE23E1523E1FD0200FDB038 /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep.wav; sourceTree = "<group>"; };
+		7AE23E1723E21DEA00FDB038 /* InternetExplorer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InternetExplorer.storyboard; sourceTree = "<group>"; };
+		7AE23E1923E21DF900FDB038 /* InternetExplorerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetExplorerViewController.swift; sourceTree = "<group>"; };
+		7AE23E1B23E34F8C00FDB038 /* ConsoleCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleCommand.swift; sourceTree = "<group>"; };
+		7AE23E1D23E350F500FDB038 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		7AE23E1F23E352EF00FDB038 /* Help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
+		7AE23E2123E3534600FDB038 /* Exit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exit.swift; sourceTree = "<group>"; };
+		7AE23E2323E3536E00FDB038 /* Clear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clear.swift; sourceTree = "<group>"; };
+		7AE23E2523E353BE00FDB038 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		7AE23E2723E3540F00FDB038 /* Otavio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Otavio.swift; sourceTree = "<group>"; };
+		7AE23E2923E3544600FDB038 /* Metasploit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metasploit.swift; sourceTree = "<group>"; };
+		7AE23E2B23E354A700FDB038 /* Sudo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sudo.swift; sourceTree = "<group>"; };
+		7AE23E2D23E3550800FDB038 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		7AE23E2F23E3555500FDB038 /* Ie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ie.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AA3EFBA23D8C30B002DB972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A117FB123DD21C900099F80 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7A117FD223DD302F00099F80 /* HapticFeedback */,
+				7A117FB223DD220700099F80 /* Audio */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7A117FB223DD220700099F80 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				7A117FB423DD222100099F80 /* AudioLibrary.swift */,
+				7A117FB723DD222100099F80 /* AudioManager.swift */,
+				7A117FB323DD222100099F80 /* IntroWithLoop.swift */,
+				7A117FB523DD222100099F80 /* Song.swift */,
+				7A117FB623DD222100099F80 /* SoundEffects.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		7A117FBD23DD24B300099F80 /* SoudTracks */ = {
+			isa = PBXGroup;
+			children = (
+				7AE23E1523E1FD0200FDB038 /* beep.wav */,
+				7A117FD023DD2E7D00099F80 /* Windows XP Menu Command.wav */,
+				7A117FCE23DD2D9700099F80 /* Windows XP Information Bar.wav */,
+				7A117FC123DD24D400099F80 /* Windows XP Error.wav */,
+				7A117FC023DD24D400099F80 /* Windows XP Exclamation.wav */,
+				7A117FC523DD24D400099F80 /* Windows XP Hardware Insert.wav */,
+				7A117FC423DD24D400099F80 /* Windows XP Hardware Remove.wav */,
+				7A117FBF23DD24D400099F80 /* Windows XP Print complete.wav */,
+				7A117FBE23DD24D400099F80 /* Windows XP Shutdown.wav */,
+				7A117FC223DD24D400099F80 /* Windows XP Start.wav */,
+				7A117FC323DD24D400099F80 /* Windows XP Startup.wav */,
+			);
+			path = SoudTracks;
+			sourceTree = "<group>";
+		};
+		7A117FD223DD302F00099F80 /* HapticFeedback */ = {
+			isa = PBXGroup;
+			children = (
+				7A117FD323DD306F00099F80 /* HapticFeedbackCenter.swift */,
+			);
+			path = HapticFeedback;
+			sourceTree = "<group>";
+		};
+		7AA3EFB423D8C30B002DB972 = {
+			isa = PBXGroup;
+			children = (
+				7AA3EFBF23D8C30B002DB972 /* otaviOS */,
+				7AA3EFBE23D8C30B002DB972 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AA3EFBE23D8C30B002DB972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AA3EFBD23D8C30B002DB972 /* otaviOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AA3EFBF23D8C30B002DB972 /* otaviOS */ = {
+			isa = PBXGroup;
+			children = (
+				7AA3EFCE23D8C30C002DB972 /* Info.plist */,
+				7AA3EFC023D8C30B002DB972 /* AppDelegate.swift */,
+				7AA3EFC223D8C30B002DB972 /* SceneDelegate.swift */,
+				7AA3EFC923D8C30C002DB972 /* Assets.xcassets */,
+				7AA3EFD623D8C369002DB972 /* Controller */,
+				7AA3EFD523D8C361002DB972 /* View */,
+				7AA3EFD423D8C35C002DB972 /* Model */,
+				7A117FB123DD21C900099F80 /* Modules */,
+				7A117FBD23DD24B300099F80 /* SoudTracks */,
+				7ADB03F623D9FFC2009C161A /* Fonts */,
+			);
+			path = otaviOS;
+			sourceTree = "<group>";
+		};
+		7AA3EFD423D8C35C002DB972 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AA3EFD723D9F0CB002DB972 /* Model.swift */,
+				7ADB040123DA3048009C161A /* MechanicalTap.swift */,
+				7AE23E1B23E34F8C00FDB038 /* ConsoleCommand.swift */,
+				7AE23E3223E3558F00FDB038 /* ConsoleCommands */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AA3EFD523D8C361002DB972 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AA024A523D9F82D00284E01 /* LaunchScreen.storyboard */,
+				7AA024A323D9F79600284E01 /* Startup.storyboard */,
+				7ADB03FB23DA0215009C161A /* Desktop.storyboard */,
+				7ADB040323DA691A009C161A /* Alert.storyboard */,
+				7ADB040823DA9DDD009C161A /* Notepad.storyboard */,
+				7ADB040C23DAAB56009C161A /* Crack.storyboard */,
+				7A117FAF23DBAF0800099F80 /* Console.storyboard */,
+				7AE23E1123E1C45F00FDB038 /* Shutdown.storyboard */,
+				7AE23E1723E21DEA00FDB038 /* InternetExplorer.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AA3EFD623D8C369002DB972 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AE23E0F23E0AD9D00FDB038 /* BaseViewController.swift */,
+				7ADB03F923DA0178009C161A /* StartupViewController.swift */,
+				7ADB03FD23DA021F009C161A /* DesktopViewController.swift */,
+				7ADB040623DA6944009C161A /* AlertViewController.swift */,
+				7ADB040A23DA9DE9009C161A /* NotepadViewController.swift */,
+				7ADB040E23DAAB64009C161A /* CrackViewController.swift */,
+				7A117FAD23DBAED200099F80 /* ConsoleViewController.swift */,
+				7AE23E1323E1C47400FDB038 /* ShutdownViewController.swift */,
+				7AE23E1923E21DF900FDB038 /* InternetExplorerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7ADB03F623D9FFC2009C161A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7ADB03FF23DA07CF009C161A /* px_sans_nouveaux.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7AE23E3223E3558F00FDB038 /* ConsoleCommands */ = {
+			isa = PBXGroup;
+			children = (
+				7AE23E1D23E350F500FDB038 /* Error.swift */,
+				7AE23E1F23E352EF00FDB038 /* Help.swift */,
+				7AE23E2123E3534600FDB038 /* Exit.swift */,
+				7AE23E2323E3536E00FDB038 /* Clear.swift */,
+				7AE23E2523E353BE00FDB038 /* Color.swift */,
+				7AE23E2723E3540F00FDB038 /* Otavio.swift */,
+				7AE23E2923E3544600FDB038 /* Metasploit.swift */,
+				7AE23E2B23E354A700FDB038 /* Sudo.swift */,
+				7AE23E2D23E3550800FDB038 /* Device.swift */,
+				7AE23E2F23E3555500FDB038 /* Ie.swift */,
+			);
+			path = ConsoleCommands;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AA3EFBC23D8C30B002DB972 /* otaviOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA3EFD123D8C30C002DB972 /* Build configuration list for PBXNativeTarget "otaviOS" */;
+			buildPhases = (
+				7AA3EFB923D8C30B002DB972 /* Sources */,
+				7AA3EFBA23D8C30B002DB972 /* Frameworks */,
+				7AA3EFBB23D8C30B002DB972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = otaviOS;
+			productName = otaviOS;
+			productReference = 7AA3EFBD23D8C30B002DB972 /* otaviOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AA3EFB523D8C30B002DB972 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Raieiros Studio";
+				TargetAttributes = {
+					7AA3EFBC23D8C30B002DB972 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7AA3EFB823D8C30B002DB972 /* Build configuration list for PBXProject "otaviOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AA3EFB423D8C30B002DB972;
+			productRefGroup = 7AA3EFBE23D8C30B002DB972 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AA3EFBC23D8C30B002DB972 /* otaviOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AA3EFBB23D8C30B002DB972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE23E1223E1C45F00FDB038 /* Shutdown.storyboard in Resources */,
+				7A117FCF23DD2D9700099F80 /* Windows XP Information Bar.wav in Resources */,
+				7ADB03FC23DA0215009C161A /* Desktop.storyboard in Resources */,
+				7A117FC923DD24D400099F80 /* Windows XP Error.wav in Resources */,
+				7A117FC823DD24D400099F80 /* Windows XP Exclamation.wav in Resources */,
+				7A117FC623DD24D400099F80 /* Windows XP Shutdown.wav in Resources */,
+				7A117FCC23DD24D400099F80 /* Windows XP Hardware Remove.wav in Resources */,
+				7A117FD123DD2E7D00099F80 /* Windows XP Menu Command.wav in Resources */,
+				7A117FCD23DD24D400099F80 /* Windows XP Hardware Insert.wav in Resources */,
+				7AE23E1623E1FD0200FDB038 /* beep.wav in Resources */,
+				7ADB040023DA07CF009C161A /* px_sans_nouveaux.ttf in Resources */,
+				7AA024A623D9F82D00284E01 /* LaunchScreen.storyboard in Resources */,
+				7A117FCA23DD24D400099F80 /* Windows XP Start.wav in Resources */,
+				7A117FCB23DD24D400099F80 /* Windows XP Startup.wav in Resources */,
+				7ADB040923DA9DDD009C161A /* Notepad.storyboard in Resources */,
+				7A117FC723DD24D400099F80 /* Windows XP Print complete.wav in Resources */,
+				7ADB040D23DAAB56009C161A /* Crack.storyboard in Resources */,
+				7A117FB023DBAF0800099F80 /* Console.storyboard in Resources */,
+				7AA024A423D9F79600284E01 /* Startup.storyboard in Resources */,
+				7ADB040423DA691A009C161A /* Alert.storyboard in Resources */,
+				7AE23E1823E21DEA00FDB038 /* InternetExplorer.storyboard in Resources */,
+				7AA3EFCA23D8C30C002DB972 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AA3EFB923D8C30B002DB972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE23E1423E1C47400FDB038 /* ShutdownViewController.swift in Sources */,
+				7ADB040B23DA9DE9009C161A /* NotepadViewController.swift in Sources */,
+				7A117FB823DD222100099F80 /* IntroWithLoop.swift in Sources */,
+				7ADB03FA23DA0178009C161A /* StartupViewController.swift in Sources */,
+				7A117FBC23DD222100099F80 /* AudioManager.swift in Sources */,
+				7AE23E1C23E34F8C00FDB038 /* ConsoleCommand.swift in Sources */,
+				7AE23E2223E3534600FDB038 /* Exit.swift in Sources */,
+				7AE23E2823E3540F00FDB038 /* Otavio.swift in Sources */,
+				7A117FD423DD306F00099F80 /* HapticFeedbackCenter.swift in Sources */,
+				7ADB040723DA6944009C161A /* AlertViewController.swift in Sources */,
+				7AE23E2E23E3550800FDB038 /* Device.swift in Sources */,
+				7A117FB923DD222100099F80 /* AudioLibrary.swift in Sources */,
+				7AE23E1023E0AD9D00FDB038 /* BaseViewController.swift in Sources */,
+				7AE23E2C23E354A700FDB038 /* Sudo.swift in Sources */,
+				7ADB03FE23DA021F009C161A /* DesktopViewController.swift in Sources */,
+				7AA3EFC123D8C30B002DB972 /* AppDelegate.swift in Sources */,
+				7AA3EFC323D8C30B002DB972 /* SceneDelegate.swift in Sources */,
+				7AE23E1A23E21DF900FDB038 /* InternetExplorerViewController.swift in Sources */,
+				7ADB040223DA3048009C161A /* MechanicalTap.swift in Sources */,
+				7AA3EFD823D9F0CB002DB972 /* Model.swift in Sources */,
+				7AE23E2023E352EF00FDB038 /* Help.swift in Sources */,
+				7AE23E2623E353BE00FDB038 /* Color.swift in Sources */,
+				7A117FBB23DD222100099F80 /* SoundEffects.swift in Sources */,
+				7AE23E3023E3555500FDB038 /* Ie.swift in Sources */,
+				7A117FAE23DBAED200099F80 /* ConsoleViewController.swift in Sources */,
+				7A117FBA23DD222100099F80 /* Song.swift in Sources */,
+				7AE23E2423E3536E00FDB038 /* Clear.swift in Sources */,
+				7AE23E2A23E3544600FDB038 /* Metasploit.swift in Sources */,
+				7AE23E1E23E350F500FDB038 /* Error.swift in Sources */,
+				7ADB040F23DAAB64009C161A /* CrackViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7AA3EFCF23D8C30C002DB972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AA3EFD023D8C30C002DB972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AA3EFD223D8C30C002DB972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 373U5VR954;
+				INFOPLIST_FILE = otaviOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pucpr.otaviOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AA3EFD323D8C30C002DB972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 373U5VR954;
+				INFOPLIST_FILE = otaviOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pucpr.otaviOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AA3EFB823D8C30B002DB972 /* Build configuration list for PBXProject "otaviOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA3EFCF23D8C30C002DB972 /* Debug */,
+				7AA3EFD023D8C30C002DB972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA3EFD123D8C30C002DB972 /* Build configuration list for PBXNativeTarget "otaviOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA3EFD223D8C30C002DB972 /* Debug */,
+				7AA3EFD323D8C30C002DB972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AA3EFB523D8C30B002DB972 /* Project object */;
+}
